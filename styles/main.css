@@ -1,0 +1,40 @@
+
+body {
+    background-color: darkcyan;
+}
+
+#fishTank {
+    display:flex;
+    flex-wrap: nowrap;
+    margin: 1em; 
+    border: 5px solid yellowgreen;
+}
+
+.fishlist {
+    flex: 3;
+    display: flex; 
+    flex-wrap: flex;
+    margin: 1em; 
+}
+
+aside {
+    flex: 2;
+    background-color: thistle;
+}
+
+.fish-card {
+background-color: wheat;
+margin: 1em; 
+flex-basis: 25%;
+display: flex;
+}
+
+.fish-image {
+    width: 100%;
+    height: auto;
+}
+
+.card-image {
+    width: 100%;
+    height: auto; 
+}
