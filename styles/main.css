@@ -29,10 +29,12 @@ flex-basis: 25%;
 display: flex;
 }
 
+
 .fish-image {
     width: 100%;
     height: auto;
 }
+
 
 .card-image {
     width: 100%;
