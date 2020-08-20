@@ -5,38 +5,38 @@ body {
 
 #fishTank {
     display:flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     margin: 1em; 
     border: 5px solid yellowgreen;
 }
 
 .fishlist {
-    flex: 3;
+    flex: 4;
     display: flex; 
-    flex-wrap: flex;
+    flex-wrap: wrap;
     margin: 1em; 
 }
 
 aside {
     flex: 2;
     background-color: thistle;
+    margin: 2em;
 }
 
 .fish-card {
 background-color: wheat;
 margin: 1em; 
-flex-basis: 25%;
-display: flex;
+}
+
+
+
+.card-image {
+    width: 200px;
+    height: auto;
 }
 
 
 .fish-image {
     width: 100%;
     height: auto;
-}
-
-
-.card-image {
-    width: 100%;
-    height: auto; 
 }
